@@ -1,88 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test Royal Living</title>
+  <style>
+    .hero {
+      height: 400px;
+      background: url('royal-living-bg.png.png') no-repeat center center;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero"></div>
+</body>
+</html>
 
-body {
-  font-family: 'Lato', sans-serif;
-  background: #f3f4f0;
-  margin: 0;
-  color: #2e4b3c;
-}
-.hero {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('royal-living-bg.png') no-repeat center center;
-  background-size: cover;
-  text-align: center;
-  padding: 100px 20px;
-  color: white;
-}
-.hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 48px;
-}
-.hero p {
-  font-size: 18px;
-}
-.cta {
-  background: #2e4b3c;
-  color: white;
-  padding: 12px 30px;
-  border: none;
-  font-size: 16px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.section {
-  max-width: 1100px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-.section h2 {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-}
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-}
-.box, .step {
-  flex: 1 1 calc(33% - 30px);
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-align: center;
-}
-.ingredients {
-  background: url('https://images.unsplash.com/photo-1560185127-6edba0026343') center/cover no-repeat;
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-.how-to {
-  background: #fdfdfb;
-  padding: 60px 20px;
-}
-.warning {
-  background: #f8e9a1;
-  padding: 15px;
-  margin: 20px auto;
-  border-radius: 5px;
-  text-align: center;
-  max-width: 600px;
-  font-weight: bold;
-}
-.product {
-  text-align: center;
-  padding: 60px 20px;
-}
-.product img {
-  width: 200px;
-  margin-bottom: 20px;
-}
-@media screen and (max-width: 768px) {
-  .grid {
-    flex-direction: column;
-  }
-  .box, .step {
-    flex: 1 1 100%;
-  }
-}
